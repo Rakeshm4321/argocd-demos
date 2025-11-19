@@ -5,4 +5,12 @@ metadata:
   namespace: default
 data:
   index.html: |
-sed -n '1,200p' online_shop/ui/index.html
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>My App</title>
+    </head>
+    <body>
+      <h1>Hello World</h1>
+    </body>
+    </html>
