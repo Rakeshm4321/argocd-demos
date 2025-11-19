@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: online-shop-ui-files
+  namespace: default
+data:
+  index.html: |
+`sed -n '1,200p' ui/index.html`
